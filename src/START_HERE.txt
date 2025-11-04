@@ -1,0 +1,274 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║              HIRE CAMP RECRUITING SERVICES - WEBSITE                      ║
+║                      START HERE - QUICK GUIDE                             ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+🚀 FOLLOW THESE 5 SIMPLE STEPS TO RUN THE WEBSITE:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: INSTALL NODE.JS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to: https://nodejs.org/
+2. Click the big green "Download" button (LTS version)
+3. Install it (just keep clicking Next)
+4. Restart your computer
+
+💡 To check if installed: Open Command Prompt and type: node --version
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 2: OPEN COMMAND PROMPT / TERMINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Windows: Press Windows Key + R, type "cmd", press Enter
+Mac: Press Command + Space, type "Terminal", press Enter
+Linux: Press Ctrl + Alt + T
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 3: NAVIGATE TO PROJECT FOLDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Type this command (replace with where you extracted the files):
+
+For Windows:
+cd C:\Users\YourName\Desktop\hire-camp-recruiting-services
+
+For Mac/Linux:
+cd ~/Desktop/hire-camp-recruiting-services
+
+💡 Tip: You can drag the folder into the terminal to get the path automatically!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 4: INSTALL DEPENDENCIES (FIRST TIME ONLY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Type this command:
+
+npm install
+
+⏳ This will take 2-5 minutes. Don't close the window!
+You'll see lots of text scrolling - this is normal.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 5: START THE WEBSITE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Type this command:
+
+npm run dev
+
+You'll see something like:
+  ➜  Local:   http://localhost:5173/
+
+Open your browser and go to: http://localhost:5173
+
+🎉 YOUR WEBSITE IS NOW RUNNING!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛑 TO STOP THE WEBSITE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Press: Ctrl + C (in the terminal window)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 TO RUN AGAIN LATER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Open Command Prompt/Terminal
+2. Navigate to folder: cd path/to/hire-camp-recruiting-services
+3. Type: npm run dev
+4. Open: http://localhost:5173
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 TO CREATE PRODUCTION FILES (FOR HOSTING)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Type: npm run build
+
+This creates a "dist" folder with files ready to upload to a web server.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 README.md              - Complete project overview
+📄 HOW_TO_RUN.md          - Detailed running instructions
+📄 INSTALLATION_GUIDE.md  - Step-by-step installation
+📄 SETUP_GUIDE.md         - Development setup
+📄 DEPLOYMENT_GUIDE.md    - How to deploy online
+📄 PROJECT_SUMMARY.md     - Project summary
+📄 START_HERE.txt         - This file
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 PROJECT STRUCTURE
+━━���━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+hire-camp-recruiting-services/
+│
+├── App.tsx                  ← Main application code
+├── components/              ← UI components
+│   ├── ProgramCard.tsx      ← Program display cards
+│   └── ui/                  ← UI components library
+├── styles/                  ← CSS styling
+│   └── globals.css
+├── package.json             ← Project configuration
+├── index.html              ← HTML entry point
+└── dist/                    ← Production files (after build)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ 12+ Training Programs (Full Stack, Frontend, Backend, Cloud, Data, Mobile)
+✅ WhatsApp Enrollment Integration (+91 9063166195)
+✅ Program Search & Filter
+✅ Responsive Design (Works on Mobile, Tablet, Desktop)
+✅ Modern Red/Maroon Theme
+✅ Program Categories with Tabs
+✅ Detailed Program Information
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ COMMON PROBLEMS & SOLUTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem: "npm: command not found"
+Solution: Install Node.js from https://nodejs.org/ and restart computer
+
+Problem: "Port 5173 already in use"
+Solution: Close other programs or restart computer
+
+Problem: Installation errors
+Solution: Run these commands:
+  npm cache clean --force
+  npm install
+
+Problem: Website not opening
+Solution: Make sure you're at http://localhost:5173 (check the port number)
+
+
+━━━━━━━━━━━━━━���━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 CONTACT INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HIRE CAMP RECRUITING SERVICES
+
+📞 Phone: +91 9063166195
+📧 Email: info@hirecamp.in
+📧 Email: hirecamp.info@gmail.com
+
+📍 Address:
+   Plot No 38&39/1 Jyothipuram colony,
+   Thattiannaram, Opposite Sreyas Engineering College,
+   Nagole Bandlaguda, GSI Post,
+   Hyderabad, Rangareddy, Telangana - 500068
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 TECH STACK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• React 18+ with TypeScript
+• Tailwind CSS v4.0
+• Vite (Build Tool)
+• Shadcn/ui (UI Components)
+• Lucide Icons
+• WhatsApp Web API Integration
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 QUICK TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Use Visual Studio Code for editing (free): https://code.visualstudio.com/
+• Test on different browsers (Chrome, Firefox, Safari, Edge)
+• The website auto-refreshes when you make changes (Hot Reload)
+• Press F12 in browser to open Developer Tools for debugging
+• Read README.md for complete documentation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 DEPLOYMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After running "npm run build", deploy the "dist" folder to:
+• Netlify (easiest for beginners)
+• Vercel
+• GitHub Pages
+• Firebase Hosting
+• Your web hosting service
+
+See DEPLOYMENT_GUIDE.md for detailed instructions.
+
+
+━━���━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ TESTING CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After website starts, test these:
+□ All program cards display
+□ Search box works
+□ Category tabs filter programs
+□ "Enroll Now" opens WhatsApp with correct message
+□ Contact information is correct
+□ Website is responsive (resize browser)
+□ All sections scroll smoothly
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 VERSION INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Version: 1.0.0
+Last Updated: November 2025
+Built for: Hire Camp Recruiting Services
+Developer: Figma Make AI
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💬 NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you're stuck:
+1. Read the error message carefully
+2. Check the documentation files
+3. Google the error message
+4. Contact Hire Camp: +91 9063166195
+
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║                    🚀 READY TO START? FOLLOW STEP 1! 🚀                   ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝

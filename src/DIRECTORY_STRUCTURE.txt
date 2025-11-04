@@ -1,0 +1,450 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║            HIRE CAMP RECRUITING SERVICES - DIRECTORY STRUCTURE               ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📦 hire-camp-recruiting-services/
+│
+├── 📚 DOCUMENTATION FILES (Read These First!)
+│   │
+│   ├── 📄 START_HERE.txt ⭐⭐⭐
+│   │   └── Quick start guide - READ THIS FIRST!
+│   │
+│   ├── 📄 README.md ⭐⭐⭐
+│   │   └── Main documentation with complete overview
+│   │
+│   ├── 📄 HOW_TO_RUN.md ⭐⭐
+│   │   └── Step-by-step running instructions for beginners
+│   │
+│   ├── 📄 INSTALLATION_GUIDE.md ⭐⭐
+│   │   └── Detailed installation walkthrough
+│   │
+│   ├── 📄 COMPLETE_GUIDE.md ⭐
+│   │   └── Comprehensive guide covering everything
+│   │
+│   ├── 📄 PROJECT_INFO.md
+│   │   └── Technical specifications and details
+│   │
+│   ├── 📄 QUICK_START_CHECKLIST.md
+│   │   └── Checklist to verify setup
+│   │
+│   ├── 📄 FINAL_SUMMARY.md
+│   │   └── Project summary and what you have
+│   │
+│   ├── 📄 DIRECTORY_STRUCTURE.txt
+│   │   └── This file - visual directory structure
+│   │
+│   ├── 📄 SETUP_GUIDE.md
+│   │   └── Development environment setup
+│   │
+│   ├── 📄 DEPLOYMENT_GUIDE.md
+│   │   └── How to deploy the website online
+│   │
+│   ├── 📄 PROJECT_SUMMARY.md
+│   │   └── Quick project summary
+│   │
+│   └── 📄 QUICK_REFERENCE.md
+│       └── Quick reference for common tasks
+│
+├── 💻 APPLICATION FILES (Main Source Code)
+│   │
+│   ├── 📄 index.html
+│   │   └── HTML entry point - loads the React app
+│   │
+│   ├── 📄 main.tsx
+│   │   └── React bootstrap file - renders App component
+│   │
+│   └── 📄 App.tsx ⭐⭐⭐ (MOST IMPORTANT)
+│       ├── Main application component (1,200+ lines)
+│       ├── Contains all 12 program data
+│       ├── Layout and sections:
+│       │   ├── Header with navigation
+│       │   ├── Hero section with branding
+│       │   ├── Programs section with search/filter
+│       │   ├── Features section
+│       │   ├── Contact section
+│       │   └── Footer
+│       └── Search and filter logic
+│
+├── 🧩 COMPONENTS (Reusable UI Components)
+│   │
+│   ├── 📄 ProgramCard.tsx ⭐⭐ (IMPORTANT)
+│   │   ├── Displays individual training programs
+│   │   ├── Shows: title, description, duration, fee, tech stack
+│   │   ├── WhatsApp enrollment handler (line ~30)
+│   │   └── "Enroll Now" button functionality
+│   │
+│   ├── 📁 figma/
+│   │   └── 📄 ImageWithFallback.tsx
+│   │       └── Image component with fallback support
+│   │
+│   └── 📁 ui/ (Shadcn UI Component Library - 40+ components)
+│       ├── 📄 accordion.tsx
+│       ├── 📄 alert-dialog.tsx
+│       ├── 📄 alert.tsx
+│       ├── 📄 aspect-ratio.tsx
+│       ├── 📄 avatar.tsx
+│       ├── 📄 badge.tsx ⭐
+│       │   └── Used for technology tags
+│       ├── 📄 breadcrumb.tsx
+│       ├── 📄 button.tsx ⭐
+│       │   └── "Enroll Now" buttons
+│       ├── 📄 calendar.tsx
+│       ├── 📄 card.tsx ⭐
+│       │   └── Program cards container
+│       ├── 📄 carousel.tsx
+│       ├── 📄 chart.tsx
+│       ├── 📄 checkbox.tsx
+│       ├── 📄 collapsible.tsx
+│       ├── 📄 command.tsx
+│       ├── 📄 context-menu.tsx
+│       ├── 📄 dialog.tsx
+│       ├── 📄 drawer.tsx
+│       ├── 📄 dropdown-menu.tsx
+│       ├── 📄 form.tsx
+│       ├── 📄 hover-card.tsx
+│       ├── 📄 input-otp.tsx
+│       ├── 📄 input.tsx ⭐
+│       │   └── Search box
+│       ├── 📄 label.tsx
+│       ├── 📄 menubar.tsx
+│       ├── 📄 navigation-menu.tsx
+│       ├── 📄 pagination.tsx
+│       ├── 📄 popover.tsx
+│       ├── 📄 progress.tsx
+│       ├── 📄 radio-group.tsx
+│       ├── 📄 resizable.tsx
+│       ├── 📄 scroll-area.tsx
+│       ├── 📄 select.tsx
+│       ├── 📄 separator.tsx
+│       ├── 📄 sheet.tsx
+│       ├── 📄 sidebar.tsx
+│       ├── 📄 skeleton.tsx
+│       ├── 📄 slider.tsx
+│       ├── 📄 sonner.tsx
+│       ├── 📄 switch.tsx
+│       ├── 📄 table.tsx
+│       ├── 📄 tabs.tsx ⭐
+│       │   └── Category filter tabs
+│       ├── 📄 textarea.tsx
+│       ├── 📄 toggle-group.tsx
+│       ├── 📄 toggle.tsx
+│       ├── 📄 tooltip.tsx
+│       ├── 📄 use-mobile.ts
+│       └── 📄 utils.ts
+│
+├── 🎨 STYLES (CSS Styling)
+│   │
+│   └── 📁 styles/
+│       └── 📄 globals.css ⭐
+│           ├── Global CSS styles (200+ lines)
+│           ├── Tailwind CSS directives (@tailwind base, components, utilities)
+│           ├── Custom CSS variables
+│           ├── Typography settings
+│           └── Color definitions
+│
+├── ⚙️ CONFIGURATION FILES
+│   │
+│   ├── 📄 package.json ⭐⭐
+│   │   ├── Project name and version
+│   │   ├── Scripts (dev, build, preview, lint)
+│   │   ├── Dependencies (React, Lucide, etc.)
+│   │   └── Dev dependencies (Vite, TypeScript, etc.)
+│   │
+│   ├── 📄 vite.config.ts
+│   │   ├── Vite build tool configuration
+│   │   ├── React plugin setup
+│   │   └── Build optimization settings
+│   │
+│   ├── 📄 tsconfig.json
+│   │   ├── TypeScript compiler options
+│   │   ├── Strict type checking enabled
+│   │   └── JSX support configuration
+│   │
+│   └── 📄 Attributions.md
+│       └── Third-party library attributions
+│
+├── 📁 guidelines/
+│   └── 📄 Guidelines.md
+│       └── Development guidelines
+│
+├── 📁 node_modules/ (Created after npm install)
+│   └── 📦 ~250MB of dependencies
+│       └── All required packages and libraries
+│
+└── 📁 dist/ (Created after npm run build)
+    ├── 📄 index.html (Optimized)
+    ├── 📁 assets/
+    │   ├── 📄 index-[hash].js (~100-150KB minified)
+    │   └── 📄 index-[hash].css (~10-20KB)
+    └── 📄 Other optimized files
+        └── Ready to upload to web hosting!
+
+════════════════════════════════════════════════════════════════════════════════
+
+🔑 KEY FILE PURPOSES
+
+📄 App.tsx
+   • Main application logic
+   • Contains all 12 training programs
+   • Layout structure (header, sections, footer)
+   • Search and filter functionality
+   
+📄 ProgramCard.tsx
+   • Individual program display
+   • WhatsApp integration (enrollment)
+   • Technology badges
+   • "Enroll Now" button handler
+   
+📄 globals.css
+   • Global styling
+   • Tailwind configuration
+   • Typography and colors
+   
+📄 package.json
+   • Project dependencies
+   • Build scripts
+   • Project metadata
+
+════════════════════════════════════════════════════════════════════════════════
+
+📊 FILE STATISTICS
+
+Total Files: 50+
+Documentation: 13 files
+Source Code: 45+ files
+Total Lines: 2,000+ lines
+Components: 45+ components
+
+Size Breakdown:
+├── Source Code: ~100KB
+├── Dependencies (node_modules): ~250MB
+└── Production Build (dist): ~300KB (minified)
+
+════════════════════════════════════════════════════════════════════════════════
+
+🎯 MOST IMPORTANT FILES TO EDIT
+
+1. App.tsx
+   • Change program details
+   • Update contact information
+   • Modify layout and sections
+   
+2. components/ProgramCard.tsx
+   • Change WhatsApp number
+   • Modify enrollment message
+   • Update card styling
+   
+3. styles/globals.css
+   • Change global styles
+   • Modify color scheme
+   • Update typography
+
+════════════════════════════════════════════════════════════════════════════════
+
+🔍 WHERE TO FIND THINGS
+
+Program Data
+└── App.tsx (line 8 onwards, programs array)
+
+WhatsApp Number
+└── components/ProgramCard.tsx (line ~41)
+
+Contact Information
+└── App.tsx (contact section and footer)
+
+Colors/Styling
+├── App.tsx (Tailwind classes)
+├── components/ProgramCard.tsx (Tailwind classes)
+└── styles/globals.css (global styles)
+
+Configuration
+├── package.json (dependencies & scripts)
+├── vite.config.ts (build settings)
+└── tsconfig.json (TypeScript settings)
+
+════════════════════════════════════════════════════════════════════════════════
+
+📱 FEATURES BREAKDOWN
+
+Header (App.tsx)
+├── Hire Camp logo
+├── Company name
+└── Navigation links
+
+Hero Section (App.tsx)
+├── Main tagline: "TALENT HAS NO BORDERS!"
+├── Description text
+├── Statistics cards (12+ Courses, 95%+ Placement)
+└── Hero image
+
+Programs Section (App.tsx)
+├── Search box (filter by name/tech)
+├── Category tabs (All, Full Stack, Frontend, etc.)
+├── 12 program cards
+└── "No results" message
+
+Program Cards (ProgramCard.tsx)
+├── Program title
+├── Description
+├── Duration, batch size, level
+├── Technology badges
+├── Mode (Online/Offline)
+├── Fee in rupees
+├── "Enroll Now" button (WhatsApp)
+└── "View Full Details" link
+
+Features Section (App.tsx)
+├── 100% Job Assistance
+├── Industry Experts
+└── Real Projects
+
+Contact Section (App.tsx)
+├── Phone: +91 9063166195
+├── Emails: info@hirecamp.in, hirecamp.info@gmail.com
+├── Complete address
+└── Why choose Hire Camp list
+
+Footer (App.tsx)
+├── Company branding
+├── Quick links
+├── Contact information
+└── Copyright notice
+
+════════════════════════════════════════════════════════════════════════════════
+
+🚀 QUICK START PATHS
+
+To Run:
+1. Install Node.js
+2. cd hire-camp-recruiting-services
+3. npm install
+4. npm run dev
+5. Open http://localhost:5173
+
+To Edit Programs:
+1. Open App.tsx
+2. Find programs array (line 8)
+3. Edit program objects
+4. Save file
+5. See changes instantly
+
+To Change WhatsApp:
+1. Open components/ProgramCard.tsx
+2. Find line ~41
+3. Change phone number in: wa.me/919063166195
+4. Save file
+
+To Deploy:
+1. npm run build
+2. Upload dist/ folder
+3. Done!
+
+════════════════════════════════════════════════════════════════════════════════
+
+📞 CONTACT INFORMATION IN CODE
+
+Locations where contact info appears:
+
+App.tsx (Multiple places):
+├── Line ~330: Contact section
+├── Line ~358: Footer
+└── Hero section statistics
+
+ProgramCard.tsx:
+└── Line ~41: WhatsApp URL
+
+Total Occurrences:
+├── Phone (+91 9063166195): 5 times
+├── Email (info@hirecamp.in): 4 times
+├── Email (hirecamp.info@gmail.com): 3 times
+└── Address: 2 times
+
+════════════════════════════════════════════════════════════════════════════════
+
+💡 TIPS FOR NAVIGATING
+
+1. Start with START_HERE.txt
+2. Read README.md for overview
+3. Edit App.tsx for main changes
+4. Edit ProgramCard.tsx for card changes
+5. Refer to COMPLETE_GUIDE.md for details
+6. Check PROJECT_INFO.md for technical specs
+7. Use QUICK_START_CHECKLIST.md to verify setup
+
+════════════════════════════════════════════════════════════════════════════════
+
+📊 TECHNOLOGY DEPENDENCIES
+
+Production:
+├── react (18.3.1)
+├── react-dom (18.3.1)
+├── lucide-react (icons)
+├── clsx (class names)
+└── tailwind-merge (CSS merging)
+
+Development:
+├── vite (build tool)
+├── typescript (type checking)
+├── tailwindcss (styling)
+├── eslint (code quality)
+└── Various @types packages
+
+════════════════════════════════════════════════════════════════════════════════
+
+✅ VERIFICATION CHECKLIST
+
+Before deploying, ensure:
+□ All programs display
+□ Search works
+□ Filter tabs work
+□ WhatsApp opens correctly
+□ Contact info is accurate
+□ Responsive on mobile
+□ Responsive on tablet
+□ Responsive on desktop
+□ No console errors
+□ Build succeeds
+
+════════════════════════════════════════════════════════════════════════════════
+
+🎓 LEARNING PATH
+
+Beginner:
+1. Run the project (npm run dev)
+2. Explore the website
+3. Read App.tsx to see structure
+4. Make small edits (change text)
+
+Intermediate:
+1. Understand React components
+2. Learn Tailwind CSS basics
+3. Modify existing programs
+4. Add new program
+
+Advanced:
+1. Add new features
+2. Integrate backend
+3. Add animations
+4. Optimize performance
+
+════════════════════════════════════════════════════════════════════════════════
+
+📝 NOTES
+
+• Files with ⭐⭐⭐ are most important
+• Files with ⭐⭐ are important
+• Files with ⭐ are useful to know
+• Read documentation files in order of stars
+• Edit source files carefully
+• Always test after changes
+• Keep backups before major changes
+
+════════════════════════════════════════════════════════════════════════════════
+
+Version: 1.0.0
+Last Updated: November 2025
+Built for: Hire Camp Recruiting Services
+
+════════════════════════════════════════════════════════════════════════════════
